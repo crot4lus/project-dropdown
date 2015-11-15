@@ -1,5 +1,5 @@
 {
-  "name": "Project Dropdown",
+  "name": "project-dropdown",
   "main": "./lib/project-dropdown.js",
   "version": "0.0.1",
   "description": "Atom package for project management, enables a dropdown above the file tree that switches between the various project directories.",
