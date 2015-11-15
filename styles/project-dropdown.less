@@ -1,0 +1,29 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.project-dropdown-container{
+    padding: 10px 5px;
+    min-height: 90px;
+
+    label{
+        display: block;
+        padding: 5px;
+        font-size: 13px;
+    }
+}
+.project-dropdown-select{
+    width: 100%;
+    font-family: @font-family !important;
+    -webkit-appearance: menulist-button;
+    height: 30px;
+    background-color: @base-background-color;
+    color: @text-color;
+    border: 1px solid @base-border-color;
+
+    option{
+        font-family: @font-family !important;
+    }
+}
