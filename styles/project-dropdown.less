@@ -4,9 +4,20 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+.tree-view-scroller{
+    position: relative !important;
+    padding-top: 90px !important;
+}
+
 .project-dropdown-container{
     padding: 10px 5px;
     min-height: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: @tool-panel-background-color;
+    z-index: 2;
 
     label{
         display: block;
