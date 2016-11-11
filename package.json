@@ -1,7 +1,7 @@
 {
   "name": "project-dropdown",
   "main": "./lib/project-dropdown.js",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Atom package for project management, enables a dropdown above the file tree that switches between the various project directories.",
   "keywords": [],
   "repository": "https://github.com/crot4lus/project-dropdown",
