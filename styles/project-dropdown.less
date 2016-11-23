@@ -4,37 +4,55 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.tree-view-scroller{
+.tree-view-scroller {
     position: relative !important;
-    padding-top: 90px !important;
+    padding-top: 36px !important;
 }
 
 .project-dropdown-container{
-    padding: 10px 5px;
-    min-height: 90px;
+    padding-top: 10px;
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    background-color: @tool-panel-background-color;
+    width: calc(~"100% - 35px");
+    left: 35px;
+    background-color: rgba(255, 255, 255, 0) !important;
     z-index: 2;
+    border-right: 5px solid #21252b;
 
     label{
         display: block;
-        padding: 5px;
+        padding: 6px;
+        padding-top: 6px;
         font-size: 13px;
+        left: -35px;
+        position: relative;
+        white-space: nowrap;
     }
 }
 .project-dropdown-select{
-    width: 100%;
     font-family: @font-family !important;
     -webkit-appearance: menulist-button;
-    height: 30px;
-    background-color: @base-background-color;
+    background-color: @tool-panel-background-color;
     color: @text-color;
-    border: 1px solid @base-border-color;
+    border: none;
+    position: relative;
+    height: auto;
+    width: 100%;
 
     option{
         font-family: @font-family !important;
     }
+}
+
+.project-root:first-child {
+    padding: 0 !important
+}
+
+.tree-view::before {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.tree-view .selected:before {
+    background-color: @tool-panel-background-color !important;
 }
