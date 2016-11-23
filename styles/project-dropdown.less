@@ -6,19 +6,18 @@
 
 .tree-view-scroller {
     position: relative !important;
-    padding-top: 36px !important;
+    padding-top: 55px !important;
 }
 
 .project-dropdown-container{
-    padding-top: 10px;
+    padding: 20px 20px 20px 35px;
     position: absolute;
     left: 0;
     top: 0;
-    width: calc(~"100% - 35px");
-    left: 35px;
-    background-color: rgba(255, 255, 255, 0) !important;
     z-index: 2;
     border-right: 5px solid #21252b;
+    background-color: @tool-panel-background-color !important;
+    width: 100%;
 
     label{
         display: block;
@@ -28,6 +27,24 @@
         left: -35px;
         position: relative;
         white-space: nowrap;
+    }
+
+    &:before {
+        font-family: 'Octicons Regular';
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: none;
+        font-size: 16px;
+        width: 16px;
+        height: 16px;
+        content: "\f001";
+        position: absolute;
+        left: 20px;
+        top: 22px;
+        z-index: 2;
     }
 }
 .project-dropdown-select{
@@ -55,4 +72,16 @@
 
 .tree-view .selected:before {
     background-color: @tool-panel-background-color !important;
+}
+
+ol.tree-view{
+    li.project-root{
+        &> .header.list-item:first-child{
+            display: none;
+        }
+    }
+
+    li.file{
+        padding-left: 0 !important;
+    }
 }
