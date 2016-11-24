@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+        "spec": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/apm-install-dir-1161024-6357-1gwfh5c"
+    ]
+  ],
+  "_from": "../d-1161024-6357-1kcrto8/package.tgz",
+  "_id": "project-dropdown@0.7.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/project-dropdown",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+    "spec": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161024-6357-1kcrto8/package.tgz",
+  "_shasum": "571a41ac7d8c303a75c00eac1402e59eb1c9ecb6",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/d-1161024-6357-1kcrto8/package.tgz",
+  "_where": "/private/var/folders/q6/966hwd0559nf72_fgn53p1000000gq/T/apm-install-dir-1161024-6357-1gwfh5c",
+  "bugs": {
+    "url": "https://github.com/crot4lus/project-dropdown/issues"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "description": "Atom package for project management, enables a dropdown above the file tree that switches between the various project directories.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/crot4lus/project-dropdown#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/project-dropdown.js",
+  "name": "project-dropdown",
+  "optionalDependencies": {},
+  "readme": "# Project Dropdown\nAtom package for project management, enables a dropdown above the file tree that switches between the various project directories.\n\nSimply install and activate.\n\n![image](http://glenntaylor.co.uk/project-dropdown-screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crot4lus/project-dropdown.git"
+  },
+  "version": "0.7.0"
+}

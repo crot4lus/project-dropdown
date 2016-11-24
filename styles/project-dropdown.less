@@ -1,0 +1,111 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.tree-view-scroller {
+    position: relative !important;
+    padding-top: 55px !important;
+}
+
+.project-dropdown-container{
+    padding: 20px 30px 20px 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-right: 5px solid #21252b;
+    background-color: @tool-panel-background-color !important;
+    width: 100%;
+
+    label{
+        display: block;
+        padding: 6px;
+        padding-top: 6px;
+        font-size: 13px;
+        left: -35px;
+        position: relative;
+        white-space: nowrap;
+    }
+
+    &:before {
+        font-family: 'Octicons Regular';
+        font-weight: normal;
+        font-style: normal;
+        display: inline-block;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        text-decoration: none;
+        font-size: 16px;
+        width: 16px;
+        height: 16px;
+        content: "\f001";
+        position: absolute;
+        left: 20px;
+        top: 22px;
+        z-index: 2;
+    }
+
+    .project-dropdown-close{
+        background-color: @tool-panel-background-color !important;
+        border: 0;
+        position: absolute;
+        right: 5px;
+        top: 21px;
+        z-index: 2;
+        padding: 0;
+
+        &:before{
+            content: "\f081";
+            font-family: 'Octicons Regular';
+            font-weight: normal;
+            font-style: normal;
+            display: inline-block;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            text-decoration: none;
+            font-size: 16px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+.project-dropdown-select{
+    font-family: @font-family !important;
+    -webkit-appearance: menulist-button;
+    background-color: @tool-panel-background-color;
+    color: @text-color;
+    border: none;
+    position: relative;
+    height: auto;
+    width: 100%;
+
+    option{
+        font-family: @font-family !important;
+    }
+}
+
+.project-root:first-child {
+    padding: 0 !important
+}
+
+.tree-view::before {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.tree-view .selected:before {
+    background-color: @tool-panel-background-color !important;
+}
+
+ol.tree-view{
+    li.project-root{
+        &> .header.list-item:first-child{
+            display: none;
+        }
+    }
+
+    li.file{
+        padding-left: 0 !important;
+    }
+}
