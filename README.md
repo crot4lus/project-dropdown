@@ -4,4 +4,4 @@ Atom package for project management, enables a dropdown above the file tree that
 Simply install and activate.
 
 
-![image](http://glenntaylor.co.uk/project-dropdown-screenshot.png)
+![image](http://glenntaylor.co.uk/project-dropdown-screenshot-2.png)
